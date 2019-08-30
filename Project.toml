@@ -1,6 +1,5 @@
 name = "KomePackage"
 uuid = "e7116434-b881-4954-9530-96bfc22de3ef"
-authors = ["deream-developer <yume.kaihatusya@gmail.com>"]
 version = "0.1.0"
 
 [compat]

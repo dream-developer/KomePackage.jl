@@ -1,6 +1,7 @@
 using KomePackage
 using Test
 
-@testset "KomePackage.jl" begin
-    # Write your own tests here.
+@testset "KomePackage.jl group 1" begin
+    @test KomePackage.greet() == "Hello Test"
+    @test KomePackage.greet("Package") == "Hello Package"
 end

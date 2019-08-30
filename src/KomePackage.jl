@@ -1,5 +1,7 @@
 module KomePackage
 
-greet() = print("Hello World!")
+function greet(arg = "Test")
+    return "Hello $arg"
+end
 
 end # module
